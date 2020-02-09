@@ -1,0 +1,15 @@
+var userName = prompt('Введите ваше имя');
+var userData = prompt('Введите сколько Вам лет');
+var userNum2 = prompt('15 + 25 =');
+var userNum3 = prompt('24 - 12 =');
+var userNum4 = prompt('12 * 6 =');
+var userNum5 = prompt('90 / 9 =');
+var userNum6 = prompt('27 % 8 =');
+alert('Откройте консоль для просмотра.');
+console.log('Вас зовут ' + userName);
+console.log('Вам ' + userData + ' лет'); 
+console.log('Пример 1: ' + ' 15 + 25 = '+ (15 + 25) + ' Ваш ответ ' + userNum2);
+console.log('Пример 2: ' + ' 24 - 12 = '+ ( 24 - 12) + ' Ваш ответ ' + userNum3);
+console.log('Пример 2: ' + ' 12 * 6 = '+ 12 * 6 + ' Ваш ответ ' + userNum3);
+console.log('Пример 4: ' + ' 90 / 9 = '+ 90 / 9 + ' Ваш ответ ' + userNum5);
+console.log('Пример 5: ' + ' 27 % 8 = '+ 27 % 8 + ' Ваш ответ ' + userNum6);
